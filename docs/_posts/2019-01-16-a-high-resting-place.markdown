@@ -2,7 +2,7 @@
 title: A High Resting Place
 layout: post
 ---
-![image](/assets/images/high_resting_place.jpg)
+![image](/assets/images/high_resting_place.jpeg)
 
 In the meadow of our time two crows
 beaks dipped in gore, for you and I chose
