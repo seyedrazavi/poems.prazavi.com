@@ -16,8 +16,8 @@
   <meta name="twitter:site" content="@monkeyx">
   <meta name="twitter:creator" content="@monkeyx">
 
-  <meta property="twitter:title" content="Pouya Razavi">
-  <meta property="twitter:description" content="Poems by Pouya Razavi">
+  <meta property="twitter:title" content="{% if page.title %}{{ page.title | append: " - " | append: site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
+  <meta property="twitter:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   <meta name="twitter:image" content="/assets/images/profile.jpeg">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
