@@ -2,7 +2,7 @@
 title: Two going together
 layout: post
 ---
-![image](/assets/images/two_going_together.jpeg)
+![image](/assets/images/two_going_together.png)
 
 In poverty, suppose our last resort should depend
 not on luck or handouts but on the love of a friend
