@@ -5,7 +5,25 @@
 
   <title>{% if page.title %}{{ page.title | append: " - " | append: site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <meta name="author" content="Pouya Razavi">
 
+  <meta property="og:site_name" content="{% if page.title %}{{ page.title | append: " - " | append: site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="/">
+  <meta property="og:image" content="/assets/images/profile.jpeg">
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@monkeyx">
+  <meta name="twitter:creator" content="@monkeyx">
+
+  <meta property="twitter:title" content="Pouya Razavi">
+  <meta property="twitter:description" content="Poems by Pouya Razavi">
+  <meta name="twitter:image" content="/assets/images/profile.jpeg">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  
   {% assign v = site.time | date: "%Y%m%d%H%M%S" %}
   <link rel="stylesheet" href="{{ "/assets/styles/core.css?v=" | append: v | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/styles/fontello.css?v=" | append: v | relative_url }}">
