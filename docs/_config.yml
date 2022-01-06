@@ -28,7 +28,6 @@ twitter_username: monkeyx
 github_username:  srazavi
 
 # Build settings
-theme: jekyll-theme-kagami
 plugins:
   - jekyll-feed
 
