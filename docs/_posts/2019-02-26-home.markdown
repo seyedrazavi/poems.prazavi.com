@@ -2,7 +2,7 @@
 title: Home
 layout: post
 ---
-![image](/assets/images/london.jpeg)
+![image](/assets/images/home.jpeg)
 
 At Surrey Road, our marriage home, we made
 a festive cheerful play with songs and pies
