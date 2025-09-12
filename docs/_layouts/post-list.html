@@ -42,13 +42,6 @@ layout: default
       {% endif %}
       <div class="post-item-meta">
         {{ post.date | date: "%B %-d, %Y" }}
-        /
-        {% capture lang %}{{ post.lang | default: site.lang | default: "en" }}{% endcapture %}
-        {% if lang == "en" %}
-        {% capture words %}{{ post.content | strip_html | number_of_words  }}{% endcapture %}
-        {% else %}
-        {% capture words %}{{ post.content | strip_html | size }}{% endcapture %}
-        {% endif %}
       </div>
     </div>
   </li>
