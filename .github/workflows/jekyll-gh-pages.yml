@@ -1,0 +1,52 @@
+name: Build & Deploy Jekyll (scheduled)
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+env:
+  SITE_DIR: docs         # <- change if your site is elsewhere
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      JEKYLL_ENV: production
+      TZ: Europe/London
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+          working-directory: ${{ env.SITE_DIR }}
+
+      - name: Install deps
+        working-directory: ${{ env.SITE_DIR }}
+        run: bundle install --jobs 4 --retry 3
+
+      - name: Build site
+        working-directory: ${{ env.SITE_DIR }}
+        run: bundle exec jekyll build --trace
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ env.SITE_DIR }}/_site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/deploy-pages@v4
