@@ -1,6 +1,7 @@
 ---
 title: Mary’s Lament
 layout: post
+date: 2019-06-13 12:00:00 Z
 ---
 **I.**
 

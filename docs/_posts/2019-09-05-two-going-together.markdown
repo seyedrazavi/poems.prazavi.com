@@ -1,6 +1,7 @@
 ---
 title: Two going together
 layout: post
+date: 2019-09-05 12:00:00 Z
 ---
 ![image](/assets/images/two_going_together.png)
 

@@ -1,6 +1,7 @@
 ---
 title: Made for Waiting
 layout: post
+date: 2019-07-11 12:00:00 Z
 ---
 The collection point, slouching over
 monochrome monitor, picking notes.

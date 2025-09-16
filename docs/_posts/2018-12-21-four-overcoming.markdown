@@ -1,6 +1,7 @@
 ---
 title: Fo(u)r Overcoming
 layout: post
+date: 2018-12-21 12:00:00 Z
 ---
 As Copernicus turned the earth 
 toward heaven, a new doubt 

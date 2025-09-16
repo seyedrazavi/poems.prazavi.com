@@ -1,6 +1,7 @@
 ---
 title: A High Resting Place
 layout: post
+date: 2019-01-16 12:00:00 Z
 ---
 ![image](/assets/images/high_resting_place.jpeg)
 

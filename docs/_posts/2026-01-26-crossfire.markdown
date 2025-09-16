@@ -1,6 +1,7 @@
 ---
 title: Crossfire
 layout: post
+date: 2026-01-26 12:00:00 Z
 ---
 North London café,
 a barrel jams

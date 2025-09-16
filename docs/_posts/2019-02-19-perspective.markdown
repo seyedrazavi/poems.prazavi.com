@@ -1,6 +1,7 @@
 ---
 title: Perspective
 layout: post
+date: 2019-02-19 12:00:00 Z
 ---
 ![image](/assets/images/perspective.jpeg)
 

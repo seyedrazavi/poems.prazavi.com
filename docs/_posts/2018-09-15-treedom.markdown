@@ -1,6 +1,7 @@
 ---
 title: Treedom
 layout: post
+date: 2018-09-15 12:00:00 Z
 ---
 Out of fluctuations and vibrations,
 quantised potentials leaping

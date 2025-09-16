@@ -1,6 +1,7 @@
 ---
 title: Wrought in Iron
 layout: post
+date: 2019-01-29 12:00:00 Z
 ---
 ![image](/assets/images/wrought_in_iron.jpeg)
 

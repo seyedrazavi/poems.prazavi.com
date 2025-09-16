@@ -1,6 +1,7 @@
 ---
 title: Metamorphosis
 layout: post
+date: 2019-01-24 12:00:00 Z
 ---
 ![image](/assets/images/metamorphosis.jpeg)
 

@@ -1,6 +1,7 @@
 ---
 title: Sirens of diminutive titans
 layout: post
+date: 2018-07-14 12:00:00 Z
 ---
 A shoe, a shoe!
 My limbs trapped in a space no bigger

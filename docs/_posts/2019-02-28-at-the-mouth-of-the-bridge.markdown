@@ -1,6 +1,7 @@
 ---
 title: At the mouth of the bridge
 layout: post
+date: 2019-02-28 12:00:00 Z
 ---
 ![image](/assets/images/mouth_bridge.jpeg)
 

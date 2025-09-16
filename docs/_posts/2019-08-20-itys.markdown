@@ -1,6 +1,7 @@
 ---
 title: Itys
 layout: post
+date: 2019-08-20 12:00:00 Z
 ---
 ![image](/assets/images/itys.jpeg)
 

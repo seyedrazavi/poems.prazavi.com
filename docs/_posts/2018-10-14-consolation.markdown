@@ -1,6 +1,7 @@
 ---
 title: Consolation
 layout: post
+date: 2018-10-14 12:00:00 Z
 ---
 My execution night, I overcome
 this trial. My eyes red, bleary and tired.

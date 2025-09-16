@@ -1,6 +1,7 @@
 ---
 title: A Picture of You
 layout: post
+date: 2019-06-20 12:00:00 Z
 ---
 **I.**
 

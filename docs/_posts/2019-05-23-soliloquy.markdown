@@ -1,6 +1,7 @@
 ---
 title: Soliloquy
 layout: post
+date: 2019-05-23 12:00:00 Z
 ---
 ![image](/assets/images/soliloquy.jpeg)
 

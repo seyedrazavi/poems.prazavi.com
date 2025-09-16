@@ -1,6 +1,7 @@
 ---
 title: Blue Badge
 layout: post
+date: 2019-02-17 12:00:00 Z
 ---
 ![image](/assets/images/blue_badge.jpeg)
 

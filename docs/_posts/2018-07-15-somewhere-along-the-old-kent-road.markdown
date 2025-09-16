@@ -1,6 +1,7 @@
 ---
 title: Somewhere along the Old Kent Road
 layout: post
+date: 2018-07-15 12:00:00 Z
 ---
 Somewhere along the Old Kent Road
 lives the man who stole my cat.

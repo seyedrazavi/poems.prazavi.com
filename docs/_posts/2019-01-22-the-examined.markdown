@@ -1,6 +1,7 @@
 ---
 title: The Examined
 layout: post
+date: 2019-01-22 12:00:00 Z
 ---
 ![image](/assets/images/examined.jpeg)
 

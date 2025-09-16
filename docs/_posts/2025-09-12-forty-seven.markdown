@@ -1,6 +1,7 @@
 ---
 title: Forty Seven
 layout: post
+date: 2025-09-12 12:00:00 Z
 ---
 At ten I was unmoored
 a child set adrift,

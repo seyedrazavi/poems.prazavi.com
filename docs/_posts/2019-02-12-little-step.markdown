@@ -1,6 +1,7 @@
 ---
 title: Little Step
 layout: post
+date: 2019-02-12 12:00:00 Z
 ---
 ![image](/assets/images/little_step.jpeg)
 

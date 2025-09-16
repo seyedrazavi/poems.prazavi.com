@@ -1,6 +1,7 @@
 ---
 title: The ending is not written
 layout: post
+date: 2019-02-03 12:00:00 Z
 ---
 ![image](/assets/images/ending_not_written.jpeg)
 

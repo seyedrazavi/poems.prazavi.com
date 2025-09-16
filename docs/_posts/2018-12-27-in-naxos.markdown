@@ -1,6 +1,7 @@
 ---
 title: In Naxos, I left a child behind
 layout: post
+date: 2018-12-27 12:00:00 Z
 ---
 Cluttered, curtains drawn, on your knees, face
 shadowed, flickering and twitching, expectant.

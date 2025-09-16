@@ -1,6 +1,7 @@
 ---
 title: Spring 2009
 layout: post
+date: 2019-08-13 12:00:00 Z
 ---
 
 ![image](/assets/images/self-portrait.jpeg)

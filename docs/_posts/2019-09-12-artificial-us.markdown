@@ -1,6 +1,7 @@
 ---
 title: artificial us
 layout: post
+date: 2019-09-12 12:00:00 Z
 ---
 
 **1//Golem**

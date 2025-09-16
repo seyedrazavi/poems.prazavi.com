@@ -1,6 +1,7 @@
 ---
 title: The Beat
 layout: post
+date: 2018-06-06 12:00:00 Z
 ---
 Hallowed, beat 
 by beat, you meet

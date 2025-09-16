@@ -1,6 +1,7 @@
 ---
 title: Pursuit Rebuffed
 layout: post
+date: 2019-05-16 12:00:00 Z
 ---
 ![image](/assets/images/pursuit.jpeg)
 

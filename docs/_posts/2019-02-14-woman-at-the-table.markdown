@@ -1,6 +1,7 @@
 ---
 title: Woman at the table
 layout: post
+date: 2019-02-14 12:00:00 Z
 ---
 ![image](/assets/images/woman_table.jpeg)
 

@@ -1,6 +1,7 @@
 ---
 title: Summer }{ Break
 layout: post
+date: 2018-08-18 12:00:00 Z
 ---
 ![image](/assets/images/summer_break.jpeg)
 

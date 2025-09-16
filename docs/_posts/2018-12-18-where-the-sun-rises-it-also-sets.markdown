@@ -1,6 +1,7 @@
 ---
 title: Where the sun rises, it also sets
 layout: post
+date: 2018-12-18 12:00:00 Z
 ---
 ![image](/assets/images/where_the_sun_rises.jpeg)
 

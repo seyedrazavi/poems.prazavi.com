@@ -1,6 +1,7 @@
 ---
 title: Every Day Learning
 layout: post
+date: 2018-12-07 12:00:00 Z
 ---
 ![image](/assets/images/every_day_learning.jpeg)
 

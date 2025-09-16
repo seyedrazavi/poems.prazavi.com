@@ -1,6 +1,7 @@
 ---
 title: Being Social Is
 layout: post
+date: 2019-06-06 12:00:00 Z
 ---
 
 _The mass of people search for meaning

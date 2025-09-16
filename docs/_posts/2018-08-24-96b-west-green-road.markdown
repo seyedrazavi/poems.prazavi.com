@@ -1,6 +1,7 @@
 ---
 title: 96B West Green Road
 layout: post
+date: 2018-08-24 12:00:00 Z
 ---
 There is damp on my wall
 black mold creeps up the edge

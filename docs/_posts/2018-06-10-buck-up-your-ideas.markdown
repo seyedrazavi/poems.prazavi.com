@@ -1,6 +1,7 @@
 ---
 title: Buck up your ideas, kiddo
 layout: post
+date: 2018-06-10 12:00:00 Z
 ---
 Up I go, up the cliff face
 leaping and bleating
