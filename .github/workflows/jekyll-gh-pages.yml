@@ -1,10 +1,8 @@
 name: Build & Deploy Jekyll (scheduled)
 
 on:
-  # Rebuild every 15 minutes (cron is in UTC)
   schedule:
     - cron: "*/15 * * * *"
-  # Allow manual runs and still deploy on pushes
   workflow_dispatch:
   push:
     branches: ["main"]
@@ -14,36 +12,36 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
+env:
+  SITE_DIR: docs         # <- change if your site is elsewhere
 
 jobs:
   build:
     runs-on: ubuntu-latest
     env:
       JEKYLL_ENV: production
-      TZ: Europe/London         # helps logs & any non-Jekyll time ops
+      TZ: Europe/London
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3'   # or match your Gemfile's ruby
+          ruby-version: '3.3'
           bundler-cache: true
+          working-directory: ${{ env.SITE_DIR }}
 
-      # If you use the github-pages gem, bundler will pick it up.
-      # If you use plain jekyll + plugins, this still works.
+      - name: Install deps
+        working-directory: ${{ env.SITE_DIR }}
+        run: bundle install --jobs 4 --retry 3
 
       - name: Build site
+        working-directory: ${{ env.SITE_DIR }}
         run: bundle exec jekyll build --trace
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: ${{ env.SITE_DIR }}/_site
 
   deploy:
     needs: build
@@ -51,6 +49,4 @@ jobs:
     environment:
       name: github-pages
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - uses: actions/deploy-pages@v4
