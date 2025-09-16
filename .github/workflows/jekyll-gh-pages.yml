@@ -12,27 +12,39 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 env:
-  SITE_DIR: docs         # <- change if your site is elsewhere
+  SITE_DIR: docs
+  TZ: Europe/London
 
 jobs:
   build:
     runs-on: ubuntu-latest
     env:
       JEKYLL_ENV: production
-      TZ: Europe/London
     steps:
       - uses: actions/checkout@v4
 
-      - uses: ruby/setup-ruby@v1
+      - name: Setup Ruby 3.2 (compatible with github-pages/Jekyll 3.9)
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3'
+          ruby-version: '3.2'
           bundler-cache: true
           working-directory: ${{ env.SITE_DIR }}
 
-      - name: Install deps
+      - name: Install gems
         working-directory: ${{ env.SITE_DIR }}
         run: bundle install --jobs 4 --retry 3
+
+      - name: Show versions (debug)
+        working-directory: ${{ env.SITE_DIR }}
+        run: |
+          ruby -v
+          bundle -v
+          bundle exec jekyll -v
 
       - name: Build site
         working-directory: ${{ env.SITE_DIR }}
