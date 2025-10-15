@@ -3,6 +3,7 @@ title: Refusal
 layout: post
 date: 2025-10-12 12:00:00 Z
 ---
+
 An offer lowered,
 pared back to bone,
 a voice asking:
