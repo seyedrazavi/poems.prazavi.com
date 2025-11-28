@@ -3,7 +3,6 @@ title: Coverciano
 layout: post
 date: 2025-11-12 12:00:00 Z
 ---
-
 She is eighty-seven,
 her arm gone stiff,
 the kitchen too far.

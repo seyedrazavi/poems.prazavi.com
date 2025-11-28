@@ -3,7 +3,6 @@ title: Poster’s Madness
 layout: post
 date: 2025-09-20 10:00:00 Z
 ---
-
 The season tilts,
 air thins to cold.
 Doors close,
