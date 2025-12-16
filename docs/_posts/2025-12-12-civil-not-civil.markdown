@@ -3,6 +3,7 @@ title: Civil/Not Civil
 layout: post
 date: 2025-12-12 12:00:00 Z
 ---
+
 1//Signal
 Everyday talk
 becomes prophecy.
