@@ -3,6 +3,7 @@ title: Cave and Mountain
 layout: post
 date: 2025-12-26 12:00:00 Z
 ---
+
 Some climb to summits
 to hear eternity in the thin air.
 Some descend to darkness
