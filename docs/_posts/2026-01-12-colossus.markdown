@@ -1,9 +1,8 @@
 ---
 title: Colossus
 layout: post
-date: 2026-01-12 12:00:00 Z
+date: 2026-01-12 00:00:00 Z
 ---
-
 Memphis air
 children breathe dust
 from engines of profit,
