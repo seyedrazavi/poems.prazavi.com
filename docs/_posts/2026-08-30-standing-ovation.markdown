@@ -1,7 +1,7 @@
 ---
 title: Standing Ovation
 layout: post
-date: 2026-08-39 10:00:00 Z
+date: 2026-08-30 10:00:00 Z
 ---
 “Heartbreaking. Soulful. A masterpiece.”
 The poster tells them what the evening ought to mean.
